@@ -1,0 +1,2 @@
+<?
+$MESS["PUGLEEV_EVALUATIONORDERS_TITLE"] = "Оценки заказов";

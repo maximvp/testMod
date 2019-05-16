@@ -1,0 +1,11 @@
+CREATE TABLE IF NOT EXISTS `pugleev_order` (
+  `ID` int(11) NOT NULL AUTO_INCREMENT,
+  `ORDER_ID` int(11),
+  `CURER` int(11),
+  `PACKAGING` int(11),
+  `QUALITY` int(11),
+  `USER` varchar(256),
+  `ORDER_DESCRIPTIONS` varchar(65536),
+  `CREATED` datetime,
+  PRIMARY KEY (ID)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=1;

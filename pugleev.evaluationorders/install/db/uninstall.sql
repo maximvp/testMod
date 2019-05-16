@@ -1,0 +1,1 @@
+DROP TABLE IF EXISTS `pugleev_order`;
